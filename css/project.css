@@ -1,0 +1,33 @@
+@import './vars.css';
+/** {*/
+  /*background-color: rgba(12,34,123,.05);*/
+  /*border: 1px solid rgba(0,0,0,.1);*/
+/*}*/
+
+body {
+  color: var(--black);
+  font-family: 'Quattrocento', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: var(--orange);
+}
+
+.site-header {
+  background-color: var(--red);
+}
+
+/*Text Colors*/
+.text-white {
+  color: var(--white);
+}
+.text-red {
+  color: var(--red);
+}
+.text-green {
+  color: var(--green);
+}

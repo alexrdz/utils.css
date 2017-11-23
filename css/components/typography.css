@@ -1,0 +1,120 @@
+h1, .h1 {
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 38px;
+  line-height: 2.375rem;
+}
+
+h2, .h2 {
+  font-size: 26px;
+  font-size: 1.625rem;
+  line-height: 32px;
+  line-height: 2rem;
+}
+
+h3, .h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+}
+
+h6, .h6 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+}
+
+h1 {
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+h3 {
+  margin-bottom: .75em;
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: .5em;
+  font-weight: 700;
+}
+
+h5 {
+  margin-bottom: .25em;
+  font-weight: 700;
+}
+
+h6 {
+  margin-bottom: .1em;
+  font-weight: 700;
+}
+
+b, strong, .strong {
+  font-weight: 700;
+}
+
+em, .em {
+  font-style: italic;
+}
+
+abbr[title], .abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+dfn {
+  font-style: italic;
+}
+
+small, .small {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 16px;
+  line-height: 1rem;
+}
+
+mark, .mark {
+  background-color: #ff0;
+}
+
+sub, .sub, sup, .sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub, .sub {
+  bottom: -0.25em;
+}
+
+sup, .sup {
+  top: -0.5em;
+}
+
+del, .del {
+  text-decoration: line-through;
+}
