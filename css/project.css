@@ -14,12 +14,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: var(--orange);
+  color: var(--red);
 }
 
-.site-header {
-  background-color: var(--red);
-}
 
 /*Text Colors*/
 .text-white {
@@ -30,4 +27,45 @@ a {
 }
 .text-green {
   color: var(--green);
+}
+
+
+
+/* Header
+-------------------------------------*/
+.site-header {
+  background-image: url('../bg--blue-mag.jpg');
+  color: var(--white);
+}
+
+/* Section 1
+-------------------------------------*/
+.section-1 {
+  background-color: var(--lightGrey);
+}
+
+/* Section 2
+-------------------------------------*/
+.speaker-img {
+  background-color: var(--lightGreen);
+}
+
+/* Section 4
+-------------------------------------*/
+.section-4 {
+  background-color: var(--lightBlue);
+}
+
+
+/* Section 7
+-------------------------------------*/
+.section-7 {
+  background-color: var(--red);
+  color: var(--white);
+}
+.section-7 a {
+  background-color: var(--white);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
