@@ -23,6 +23,7 @@
 --------------------------------
 @import "./components/xl.css";
 */
+@import 'components/button.css';
 /* Project-specific
 --------------------------------*/
 @import "./project.css";
