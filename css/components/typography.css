@@ -1,80 +1,87 @@
 h1, .h1 {
-  font-size: 48px;
-  font-size: 3rem;
-  line-height: 38px;
-  line-height: 2.375rem;
+  font-size: 12vw;
+  margin-bottom: calc(1 * 1.5vh);
 }
 
 h2, .h2 {
-  font-size: 26px;
-  font-size: 1.625rem;
-  line-height: 32px;
-  line-height: 2rem;
+  font-size: 10vw;
+  margin-bottom: calc(.85 * 1.5vh);
 }
 
 h3, .h3 {
-  font-size: 22px;
-  font-size: 1.375rem;
-  line-height: 28px;
-  line-height: 1.75rem;
+  font-size: 8vw;
+  margin-bottom: calc(.75 * 1.5vh);
 }
 
 h4, .h4 {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 24px;
-  line-height: 1.5rem;
+  font-size: 6vw;
+  margin-bottom: calc(.65 * 1.5vh);
 }
 
 h5, .h5 {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 22px;
-  line-height: 1.375rem;
+  font-size: 5vw;
+  margin-bottom: calc(.5 * 1.5vh);
 }
 
 h6, .h6 {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 20px;
-  line-height: 1.25rem;
+  font-size: 3.5vw;
+  margin-bottom: calc(.45 * 1.5vh);
 }
 
-h1 {
-  margin-bottom: 1.5em;
-  font-weight: 700;
+p {
+  font-size: 3.25vw;
+  line-height: 3.85vh;
 }
 
-h2 {
-  margin-bottom: 1em;
-  font-weight: 700;
+@media (min-width: 600px) {
+  h1, .h1 {
+    font-size: 42px;
+    font-size: 6vw;
+    margin-bottom: calc(2 * 1.5vh);
+  }
+
+  h2, .h2 {
+    font-size: 35px;
+    font-size: 5vw;
+    margin-bottom: calc(1.75 * 1.5vh);
+  }
+
+  h3, .h3 {
+    font-size: 28px;
+    font-size: 4vw;
+    margin-bottom: calc(1.5 * 1.5vh);
+  }
+
+  h4, .h4 {
+    font-size: 21px;
+    font-size: 3vw;
+    margin-bottom: calc(1.25 * 1.5vh);
+  }
+
+  h5, .h5 {
+    font-size: 14px;
+    font-size: 2vw;
+    margin-bottom: calc(1 * 1.5vh);
+  }
+
+  h6, .h6 {
+    font-size: 7px;
+    font-size: 1vw;
+    margin-bottom: calc(.75 * 1.5vh);
+  }
+
+  p {
+    font-size: 1.65vw;
+  }
 }
 
-h3 {
-  margin-bottom: .75em;
-  font-weight: 700;
-}
 
-h4 {
-  margin-bottom: .5em;
-  font-weight: 700;
-}
-
-h5 {
-  margin-bottom: .25em;
-  font-weight: 700;
-}
-
-h6 {
-  margin-bottom: .1em;
-  font-weight: 700;
-}
 
 b, strong, .strong {
   font-weight: 700;
 }
 
-em, .em {
+vh, .vh {
   font-style: italic;
 }
 
@@ -91,9 +98,9 @@ dfn {
 
 small, .small {
   font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: 0.8125vw;
   line-height: 16px;
-  line-height: 1rem;
+  line-height: 1vw;
 }
 
 mark, .mark {
@@ -108,11 +115,11 @@ sub, .sub, sup, .sup {
 }
 
 sub, .sub {
-  bottom: -0.25em;
+  bottom: -0.25vh;
 }
 
 sup, .sup {
-  top: -0.5em;
+  top: -0.5vh;
 }
 
 del, .del {

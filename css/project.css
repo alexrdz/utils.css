@@ -6,11 +6,11 @@
 
 body {
   color: var(--black);
-  font-family: 'Quattrocento', serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Georgia', Georgia, Times New Roman, sans-serif;
 }
 
 a {
