@@ -63,13 +63,13 @@
   padding-left: 60px;
   padding-right: 60px;
 }
-
 @media (min-width: 767px) and (max-width: 1024px) {
   .py-m-0 {
     padding-bottom: 0 !important;
     padding-top: 0 !important;
   }
 }
+
 .py-0 {
   padding-bottom: 0;
   padding-top: 0;
@@ -239,6 +239,110 @@
   padding-bottom: 60px;
 }
 
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-35 {
+  padding-left: 35px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-45 {
+  padding-left: 45px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-55 {
+  padding-left: 55px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-35 {
+  padding-right: 35px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-45 {
+  padding-right: 45px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pr-55 {
+  padding-right: 55px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
 .p-5 {
   padding: 5px;
 }
@@ -286,10 +390,7 @@
 .p-60 {
   padding: 60px;
 }
-
-
 @media only screen and (min-width: 767px) {
-
   .pt-0-m {
     padding-top: 0;
   }
@@ -394,6 +495,110 @@
     padding-bottom: 60px;
   }
 
+  .pl-0-m {
+    padding-left: 0 !important;
+  }
+
+  .pl-5-m {
+    padding-left: 5px;
+  }
+
+  .pl-10-m {
+    padding-left: 10px;
+  }
+
+  .pl-15-m {
+    padding-left: 15px;
+  }
+
+  .pl-20-m {
+    padding-left: 20px;
+  }
+
+  .pl-25-m {
+    padding-left: 25px;
+  }
+
+  .pl-30-m {
+    padding-left: 30px;
+  }
+
+  .pl-35-m {
+    padding-left: 35px;
+  }
+
+  .pl-40-m {
+    padding-left: 40px;
+  }
+
+  .pl-45-m {
+    padding-left: 45px;
+  }
+
+  .pl-50-m {
+    padding-left: 50px;
+  }
+
+  .pl-55-m {
+    padding-left: 55px;
+  }
+
+  .pl-60-m {
+    padding-left: 60px;
+  }
+
+  .pr-0-m {
+    padding-right: 0 !important;
+  }
+
+  .pr-5-m {
+    padding-right: 5px;
+  }
+
+  .pr-10-m {
+    padding-right: 10px;
+  }
+
+  .pr-15-m {
+    padding-right: 15px;
+  }
+
+  .pr-20-m {
+    padding-right: 20px;
+  }
+
+  .pr-25-m {
+    padding-right: 25px;
+  }
+
+  .pr-30-m {
+    padding-right: 30px;
+  }
+
+  .pr-35-m {
+    padding-right: 35px;
+  }
+
+  .pr-40-m {
+    padding-right: 40px;
+  }
+
+  .pr-45-m {
+    padding-right: 45px;
+  }
+
+  .pr-50-m {
+    padding-right: 50px;
+  }
+
+  .pr-55-m {
+    padding-right: 55px;
+  }
+
+  .pr-60-m {
+    padding-right: 60px;
+  }
+
   .p-0-m {
     padding: 0;
   }
@@ -446,8 +651,6 @@
     padding: 60px;
   }
 }
-
-
 @media only screen and (min-width: 980px) {
   .pt-0-l {
     padding-top: 0;
@@ -553,6 +756,110 @@
     padding-bottom: 60px;
   }
 
+  .pl-0-l {
+    padding-left: 0 !important;
+  }
+
+  .pl-5-l {
+    padding-left: 5px;
+  }
+
+  .pl-10-l {
+    padding-left: 10px;
+  }
+
+  .pl-15-l {
+    padding-left: 15px;
+  }
+
+  .pl-20-l {
+    padding-left: 20px;
+  }
+
+  .pl-25-l {
+    padding-left: 25px;
+  }
+
+  .pl-30-l {
+    padding-left: 30px;
+  }
+
+  .pl-35-l {
+    padding-left: 35px;
+  }
+
+  .pl-40-l {
+    padding-left: 40px;
+  }
+
+  .pl-45-l {
+    padding-left: 45px;
+  }
+
+  .pl-50-l {
+    padding-left: 50px;
+  }
+
+  .pl-55-l {
+    padding-left: 55px;
+  }
+
+  .pl-60-l {
+    padding-left: 60px;
+  }
+
+  .pr-0-l {
+    padding-right: 0 !important;
+  }
+
+  .pr-5-l {
+    padding-right: 5px;
+  }
+
+  .pr-10-l {
+    padding-right: 10px;
+  }
+
+  .pr-15-l {
+    padding-right: 15px;
+  }
+
+  .pr-20-l {
+    padding-right: 20px;
+  }
+
+  .pr-25-l {
+    padding-right: 25px;
+  }
+
+  .pr-30-l {
+    padding-right: 30px;
+  }
+
+  .pr-35-l {
+    padding-right: 35px;
+  }
+
+  .pr-40-l {
+    padding-right: 40px;
+  }
+
+  .pr-45-l {
+    padding-right: 45px;
+  }
+
+  .pr-50-l {
+    padding-right: 50px;
+  }
+
+  .pr-55-l {
+    padding-right: 55px;
+  }
+
+  .pr-60-l {
+    padding-right: 60px;
+  }
+
   .p-0-l {
     padding: 0;
   }
@@ -605,4 +912,3 @@
     padding: 60px;
   }
 }
-
