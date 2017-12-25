@@ -41,58 +41,60 @@
 }
 
 .fix-1-12 {
-  max-width: 93px !important;
+  max-width: 8.333333333% !important;
 }
 
 .fix-2-12 {
-  max-width: 186px !important;
+  max-width: 16.666666666% !important;
 }
 
 .fix-3-12 {
-  max-width: 279px !important;
+  max-width: 24.999999999% !important;
 }
 
 .fix-4-12 {
-  max-width: 371px !important;
+  max-width: 33.333333332% !important;
 }
 
 .fix-5-12 {
-  max-width: 464px !important;
+  max-width: 41.666666665% !important;
 }
 
 .fix-6-12 {
-  max-width: 557px !important;
+  max-width: 49.999999998% !important;
 }
 
 .fix-7-12 {
-  max-width: 650px !important;
+  max-width: 58.333333331% !important;
 }
 
 .fix-8-12 {
-  max-width: 743px !important;
+  max-width: 66.666666664% !important;
 }
 
 .fix-9-12 {
-  max-width: 836px !important;
+  max-width: 74.999999997% !important;
 }
 
 .fix-10-12 {
-  max-width: 928px !important;
+  max-width: 83.33333333% !important;
 }
 
 .fix-11-12 {
-  max-width: 1021px !important;
+  max-width: 91.666666663% !important;
 }
 
 .fix-12-12 {
-  max-width: 1114px !important;
+  max-width: 99.999999996% !important;
 }
 
 [class*='fix-'] {
-  width: 100% !important;
+  float: none;
   margin-left: auto !important;
   margin-right: auto !important;
-  float: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100% !important;
 }
 
 .toLeft,
