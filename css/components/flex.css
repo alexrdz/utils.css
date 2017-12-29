@@ -48,7 +48,7 @@
   float: right;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: var(--medium)) {
 
   .flex-m {
     display: -webkit-box;
@@ -119,7 +119,7 @@
 }
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: var(--large)) {
 
   .flex-l {
     display: -webkit-box;

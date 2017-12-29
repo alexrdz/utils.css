@@ -4,7 +4,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   background-color: transparent;
-  border: 1px solid #bbb;
+  border: 1px solid var(--black);
   border-radius: 4px;
   color: inherit;
   cursor: pointer;
@@ -30,16 +30,20 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  border-color: #888;
-  outline: 0; }
+  border-color: var(--grey);
+  outline: 0;
+}
+
 .btn.btn-primary,
 button.btn-primary,
 input[type="submit"].btn-primary,
 input[type="reset"].btn-primary,
 input[type="button"].btn-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: var(--white);
+  background-color: var(--buttonBgColor);
+  border-color: var(--buttonBgColor);
+}
+
 .btn.btn-primary:hover,
 button.btn-primary:hover,
 input[type="submit"].btn-primary:hover,
@@ -50,6 +54,7 @@ button.btn-primary:focus,
 input[type="submit"].btn-primary:focus,
 input[type="reset"].btn-primary:focus,
 input[type="button"].btn-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: var(--white);
+  background-color: var(--buttonBgColorHover);
+  border-color: var(--buttonBgColorHover);
+}

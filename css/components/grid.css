@@ -21,7 +21,7 @@
 .container .wrap .spaceWrap {
   padding: calc(2% + 15px) calc(2% + 15px);
 }
-@media (min-width: 767px) {
+@media (min-width: var(--medium)) {
   .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
   .container .wrap .spaceWrap {
     padding: calc(2% + 50px) calc(8% + 15px);
@@ -185,7 +185,7 @@
 
 
 /* phablet landscape and ipad portrait and > */
-@media (min-width: 767px) {
+@media (min-width: var(--medium)) {
 
   .grid > .col-m-1-1 {
     max-width: 100% !important;
@@ -208,7 +208,7 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: var(--medium)) {
 
   .grid > .col-1-12 {
     max-width: 8.33333%;
@@ -316,7 +316,7 @@
 
 
 /* ipad landscape and > */
-@media (min-width: 1023px) {
+@media (min-width: var(--xlarge)) {
   .grid > .col-l-1-1 {
     max-width: 100% !important;
   }
@@ -421,7 +421,7 @@
   width: 66.66666666% !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: var(--large)) {
   .flex > .col-1-12 {
     width: 8.33333%;
   }
@@ -513,7 +513,7 @@
 }
 
 /* ipad landscape and > */
-@media (min-width: 1023px) {
+@media (min-width: var(--xlarge)) {
 
   .flex > .col-m-1-1 {
     width: 100% !important;
@@ -557,7 +557,7 @@
 }
 
 /* phablet landscape and ipad portrait and > */
-@media (min-width: 767px) {
+@media (min-width: var(--medium)) {
 
   .flex > .col-m-1-1 {
     width: 100% !important;

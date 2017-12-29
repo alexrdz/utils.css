@@ -25,7 +25,7 @@
   z-index: 5;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: var(--medium)) {
 
   .relative-m {
     position: relative;
@@ -42,27 +42,11 @@
   .fixed-m {
     position: fixed;
   }
-
-  .none-m {
-    display: none;
-  }
-
-  .block-m {
-    display: block;
-  }
-
-  .inline-block-m {
-    display: inline-block;
-  }
-
-  .inline-m {
-    display: inline;
-  }
 }
 
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: var(--large)) {
   .relative-l {
     position: relative;
   }
@@ -77,21 +61,5 @@
 
   .fixed-l {
     position: fixed;
-  }
-
-  .none-l {
-    display: none;
-  }
-
-  .block-l {
-    display: block;
-  }
-
-  .inline-block-l {
-    display: inline-block;
-  }
-
-  .inline-l {
-    display: inline;
   }
 }
