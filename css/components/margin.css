@@ -277,7 +277,7 @@
 
 
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: var(--medium)) {
 
   .no-margin-m {
     margin: 0;
@@ -299,7 +299,7 @@
 }
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: var(--large)) {
   .no-margin-l {
     margin: 0;
   }
