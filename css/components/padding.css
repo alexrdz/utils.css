@@ -63,7 +63,7 @@
   padding-left: 60px;
   padding-right: 60px;
 }
-@media (min-width: var(--large)) and (max-width: calc(var(--xlarge) + 1px)) {
+@media (min-width: 980px) and (max-width: calc(var(--xlarge) + 1px)) {
   .py-m-0 {
     padding-bottom: 0 !important;
     padding-top: 0 !important;
@@ -390,7 +390,7 @@
 .p-60 {
   padding: 60px;
 }
-@media only screen and (min-width: var(--medium)) {
+@media only screen and (min-width: 767px) {
   .pt-0-m {
     padding-top: 0;
   }
@@ -651,7 +651,7 @@
     padding: 60px;
   }
 }
-@media only screen and (min-width: var(--large)) {
+@media only screen and (min-width: 980px) {
   .pt-0-l {
     padding-top: 0;
   }
