@@ -185,6 +185,18 @@
 
 /* phablet landscape and ipad portrait and > */
 @media (min-width: 767px) {
+  
+  .grid > .push-1 { margin-left: 8.33333%; }
+  .grid > .push-2 { margin-left: 16.66667%; }
+  .grid > .push-3 { margin-left: 25%; }
+  .grid > .push-4 { margin-left: 33.33333%; }
+  .grid > .push-5 { margin-left: 41.66667%; }
+  .grid > .push-6 { margin-left: 50%; }
+  .grid > .push-7 { margin-left: 58.33333%; }
+  .grid > .push-8 { margin-left: 66.66667%; }
+  .grid > .push-9 { margin-left: 75%; }
+  .grid > .push-10 { margin-left: 83.33333%; }
+  .grid > .push-11 { margin-left: 91.66667%; }
 
   .grid > .col-m-1-1 {
     max-width: 100% !important;
