@@ -21,7 +21,7 @@
 .container .wrap .spaceWrap {
   padding: calc(2% + 15px) calc(2% + 15px);
 }
-@media (min-width: var(--medium)) {
+@media (min-width: 767px) {
   .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
   .container .wrap .spaceWrap {
     padding: calc(2% + 50px) calc(8% + 15px);
@@ -184,7 +184,7 @@
 
 
 /* phablet landscape and ipad portrait and > */
-@media (min-width: var(--medium)) {
+@media (min-width: 767px) {
 
   .grid > .col-m-1-1 {
     max-width: 100% !important;
@@ -207,7 +207,7 @@
   }
 }
 
-@media (min-width: var(--medium)) {
+@media (min-width: 767px) {
 
   .grid > .col-1-12 {
     max-width: 8.33333%;
@@ -420,7 +420,7 @@
   width: 66.66666666% !important;
 }
 
-@media (min-width: var(--large)) {
+@media (min-width: 980px) {
   .flex > .col-1-12 {
     width: 8.33333%;
   }
@@ -556,7 +556,7 @@
 }
 
 /* phablet landscape and ipad portrait and > */
-@media (min-width: var(--medium)) {
+@media (min-width: 767px) {
 
   .flex > .col-m-1-1 {
     width: 100% !important;

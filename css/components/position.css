@@ -25,7 +25,7 @@
   z-index: 5;
 }
 
-@media only screen and (min-width: var(--medium)) {
+@media only screen and (min-width: 767px) {
 
   .relative-m {
     position: relative;
@@ -46,7 +46,7 @@
 
 
 
-@media only screen and (min-width: var(--large)) {
+@media only screen and (min-width: 980px) {
   .relative-l {
     position: relative;
   }

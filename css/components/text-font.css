@@ -75,7 +75,7 @@
   text-align: justify;
 }
 
-@media only screen and (min-width: var(--medium)) {
+@media only screen and (min-width: 767px) {
   .text-left-m {
     text-align: left;
   }
@@ -94,7 +94,7 @@
 }
 
 
-@media only screen and (min-width: var(--large)) {
+@media only screen and (min-width: 980px) {
   .text-left-l {
     text-align: left;
   }

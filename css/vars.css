@@ -15,9 +15,4 @@
   /* Buttons */
   --buttonBgColor: #33C3F0;
   --buttonBgColorHover: #1EAEDB;
-
-  /* Media Queries*/
-  --medium: 767px;
-  --large: 980px;
-  --xlarge: 1023px;
 }
